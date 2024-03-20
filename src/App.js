@@ -7,12 +7,14 @@ import Footer from './Components/Footer/Footer'
 
 const App = () => {
     return ( <>
-        <
-        Navbar / > {
+        <Navbar />
+        <Home /> 
+        {
             /* <Home />
                 <Main />
                 <Footer /> */
-        } </>
+        } 
+        </>
     )
 }
 

@@ -21,6 +21,7 @@
   width: 100%;
   padding: 1rem;
   z-index: 1000;
+  box-shadow: 0 2px 4px rgba(2, 5, 29, 0.493);
 }
 .header .logo {
   color: var(--blackColor);
@@ -42,13 +43,13 @@
     height: max-content;
     width: 80%;
     border-radius: 1rem;
-    top: 6rem;
+    top: -500rem;
     left: 50%;
     padding: 1rem;
     transform: translate(-50%);
     z-index: 2000;
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
   .header .navBar .navLists {
     flex-direction: column;
@@ -71,6 +72,9 @@
   .header .navBar .btn a {
     font-weight: 600;
     color: var(--whiteColor);
+  }
+  .header .activeNavbar {
+    top: 7rem;
   }
   .header .closeNavbar {
     position: absolute;

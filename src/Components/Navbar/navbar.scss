@@ -22,6 +22,7 @@
     width: 100%;
     padding: 1rem;
     z-index: 1000;
+    box-shadow: 0 2px 4px rgba(2, 5, 29, 0.493) ;
 
     .logo{
         color: var(--blackColor);
@@ -44,13 +45,13 @@
             height: max-content;
             width: 80%;
             border-radius: 1rem;
-            top: 6rem;
+            top: -500rem;
             left: 50%;
             padding: 1rem;
             transform: translate(-50%);
             z-index: 2000;
             box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
-            transition: .3s ease-in-out;
+            transition: .5s ease-in-out;
         
         
             .navLists {
@@ -82,7 +83,11 @@
             }
 
         }
-    
+        
+        .activeNavbar {
+            top: 7rem ;
+        }
+
         .closeNavbar {
             position: absolute;
             top: 1rem;
